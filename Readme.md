@@ -7,6 +7,7 @@ This page is designed to track my progress in web3 security where I share my fai
 
 | Contest    |Platform| Category                  | Ranking 🏆   | Findings 🔎| Comment |
 |------------|---------|------------------|-----------|---------|----------|
+| [Puffer](https://immunefi.com/bounty/pufferfinance-boost/)| Immunefi | LRST | N/A | [1L](./immunefi/puffer.md) | Puffer held a small audit with their Timelock, Depositor and Vault contracts in scope. Found a small issue in the Timelock -- it removes a transaction from the queue when it fails resulting in wasted time for voting and reexecution.
 | [Blast](https://cantina.xyz/competitions/c90131b4-5c7c-4ebc-a1f3-8002d219bfe0)| Cantina | L2, Bridge | TBA | TBA | Blast held the biggest contest in history with 1.2M reward pot. Although audited previously by Spearbit I managed to find some vulnerabilites which I'm proud of. Eagerly waiting for results.
 | [Arcade](https://cantina.xyz/competitions/c2e31b04-fbb2-4355-80ef-141d58b6e0cc)| Cantina | NFT lending | TBA | TBA | Very solid codebase previously audited by a top-tier firm. Some good findings of mine were downgraded to low which were non-payable for this contest, unfortunately.
 | [Allo V2](https://audits.sherlock.xyz/contests/109) | Sherlock | Capital management         | **#10**/397  | [5M](https://github.com/sherlock-audit/2023-09-Gitcoin-judging/issues?q=is%3Aissue+honeymewn+is%3Aclosed)        | Found lots of vulns once I wrapped my head around the codebase. I wish I started a bit earlier.
